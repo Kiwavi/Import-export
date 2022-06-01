@@ -3,5 +3,5 @@ from .views import ForexAPIView
 
 
 urlpatterns = [
-    path('', ForexAPIView.as_view()),
+    path('forex', ForexAPIView.as_view()),
 ]
