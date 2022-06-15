@@ -9,3 +9,9 @@ from .serializers import ForexSerializer
 class ForexAPIView(generics.ListAPIView):
     queryset = Currency.objects.all()
     serializer_class = ForexSerializer
+
+
+class ForexTwoAPIView(generics.ListCreateAPIView):
+    queryset = Currency.objects.all()
+    serializer_class = ForexSerializer
+    

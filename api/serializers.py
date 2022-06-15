@@ -6,3 +6,4 @@ class ForexSerializer(serializers.ModelSerializer):
     class Meta:
         model = Currency
         fields = ('Date', 'Dollar', 'Pound', 'Euro')
+
