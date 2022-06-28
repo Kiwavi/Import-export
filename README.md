@@ -5,7 +5,7 @@ Get started
 Clone this repository into a preferably empty folder   
 `git clone https://github.com/Kiwavi/Import-export.git .     `   
 create a virtual environment    
-`python -m venv venv    `
+`python -m venv venv    `    
 Activate the virtual environment         
 `source venv/bin/activate `   
 Create superuser    
