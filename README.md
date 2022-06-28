@@ -21,4 +21,5 @@ In this case, a forex file is used. In case you want to use another file, ensure
 The forex file is located inside the static folder of this project therefore upload it    
 Once you upload, choose format as csv (the file is a .csv)   
 Click submit    
+Click 'confirm import'    
 Once you're done, you can confirm the file was uploaded by visiting localhost/api/forex which is an API endpoint.     
