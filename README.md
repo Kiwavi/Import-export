@@ -9,7 +9,7 @@ create a virtual environment
 Activate the virtual environment         
 `source venv/bin/activate `   
 Create superuser    
-`python manage.py createsuperuser    `
+`python manage.py createsuperuser    `     
 Once you create superuser, run migrations    
 `python manage.py migrate`    
 Visit the python admin page on your browser 127.0.0.1:8000/admin    
